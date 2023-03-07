@@ -1,0 +1,48 @@
+
+#container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    
+}
+
+#header {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    background-color: white;
+
+}
+#btn-text {
+    color: green;
+    border-radius: 50px;
+    background-color: white;
+    font-family: "Georgia", serif;
+    font-size: 20px;
+    margin-left: 20px;
+    border: 0px;
+}
+
+#btn-cart {
+    color: black;
+    border-radius: 50px;
+    background-color: white;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    margin-left: 1100px;
+    border: 0px;
+}
+
+#btn-bookings {
+    color: black;
+    border-radius: 50px;
+    background-color: white;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    border: 0px;
+
+
+}
