@@ -4,70 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href = "style.css">
+    <link rel ="stylesheet" href = "index.css">
     <title>TicketHack</title>
 </head>
 
 <body>
-
+    <div id="header">
+    <h1><a id="Title" href= "index.html">Tickethack</a></h1>
+<div>
+    <a class="link" href="cart.html">Cart</a> 
+    <a class="link" href="bookings.html">Bookings</a>
+</div>
+    
+</div>
 
 <div id="container">
+    <div id="Titles">
+
+    <h2>Explore the world effortlessly by train!</h2>
+    <h3>Compare, book and enjoy cheap prices for train tickets: your journey starts on Tickethack.</h3>
+    </div>
+
+<div id="left-content">
+    <div id="left">
+
+    <input class="input" id="departure" type="text" placeholder="Departure" />
+    <input class="input" id="arrival" type="text" placeholder="Arrival" />
+    <input class="input" id="date" type="date" placeholder="Date" />
+    <button id="search">Search</button>
+</div>
+
+<div id="right-content">
+
+    <img id="train" src="images/train.png" />
    
-<!-- <img class="background" src="images/background.jpg" />  OU PLACER LE BACKGROUND ??? -->
+        <p>It's time to book your future trip.</p>
 
-<div id="header">
-    
-<button type="button-text" id="btn-text">Tickethack</button> 
-
-<button type="button-cart" id="btn-cart">Cart</button> 
-
-<button type="button-bookings" id="btn-bookings">Bookings</button> 
-           
-</div>
-
-<div id="content-central">
-
-<h1>Explore the world effortlessly by train!</h1>
-
-<h2>Compare, book and enjoy cheap prices for train tickets: your journey starts on TicketHack.</h2>
-
-
-</div>    
-<div id="content-left">
-
-
-
-<div id = "findtrain-container">
-    <input id="add-departure" type="text" placeholder="Departure">
-
-    <input id="add-arrival" type="text" placeholder="Arrival">
-
-    <!--calendrier INPUT(sélection de date) -->
-
-    <button type="button" id="btn-search">Search</button>
-    
-
-
-</div> 
-</div>
-<div id="content-right">
-
-
-<!-- 
-    Dans script.js
-    
-    Après résultat de la recherche soit :
-
-De base :
-<img class="train" src="images/train.png" /> 
-
- si Recherche impossible :
-<img class="notfound" src="images/notfound.png" /> 
-
--->
-
-
+   
 </div>
 </div>
+</div>
+
+<script src="index.js"> </script>
+
 </body>
 </html>
