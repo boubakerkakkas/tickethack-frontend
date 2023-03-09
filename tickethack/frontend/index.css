@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: space-between; 
     align-items: center;
-    background-image: url(/tickethack/frontend/images/background.jpg);
+    background-image: url(/tickethack/tickethack-frontend/tickethack/frontend/images/background.jpg);
     background-size: cover;
     
 }

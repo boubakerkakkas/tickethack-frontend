@@ -5,7 +5,7 @@ document.querySelector('#date').valueAsDate = new Date();
 function majTrip() {
     for ( let i = 0; i < document.querySelectorAll('#book').length; i++) {
         document.querySelectorAll('#book')[i].addEventListener ('click', function () {
-            fetch('mongodb+srv://boubakerkks:ctd9IDeojnpQSzz7@cluster0.v8svwcc.mongodb.net/Tickethack', {
+            fetch('', {
                 method: 'GET',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
